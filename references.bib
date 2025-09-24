@@ -655,52 +655,6 @@
   language  = "en"
 }
 
-@ARTICLE{McCaw2024-bg,
-  title       = "A Scalable Framework for Identifying Allelic Series from
-                 Summary Statistics",
-  author      = "McCaw, Zachary R and Gao, Jianhui and Dey, Rounak and Tucker,
-                 Simon and Zhang, Yiyan and Gronsbell, Jessica and Li, Xihao and
-                 Fox, Emily and O'Dushlaine, Colm and Soare, Thomas W",
-  journal     = "Genetics",
-  institution = "bioRxiv",
-  number      = "biorxiv;2024.10.31.621375v2",
-  abstract    = "Abstract Genes for which a dose-response relationship exists
-                 between mutational severity and phenotypic impact make for
-                 logical therapeutic targets, as the effects of pharmacological
-                 modulation can be anticipated from the natural variation
-                 present in a population. We refer to genes where such a
-                 dose-response relationship exists as harboring allelic series,
-                 and have introduced the rare coding-variant allelic series test
-                 (COAST) for their identification. The original COAST required
-                 access to individual-level data. However, such data are often
-                 unavailable due to privacy concerns or logistical challenges.
-                 Meanwhile, single-variant summary statistics of the type
-                 produced by genome-wide association studies are plentiful. Here
-                 we introduce COAST-SS, an extension of COAST that accepts
-                 summary statistics as input, namely the per-variant effect
-                 sizes and standard errors, along with estimates of the minor
-                 allele frequency and local linkage disequilibrium (LD). As a
-                 running example, we consider identifying allelic series for
-                 circulating lipid traits, drawing on data from the UK Biobank,
-                 Million Veterans Program, and Trans-Omics of Precision Medicine
-                 Program. Through extensive analyses of real and simulated data,
-                 we demonstrate that COAST-SS provides p-values effectively
-                 equivalent to those from the original COAST. Interestingly, we
-                 find that when LD is low, as is expected among rare variants,
-                 COAST-SS is robust to misspecification of the LD matrix,
-                 providing valid inference even when the LD matrix is set to the
-                 identity matrix. We explore several strategies for annotating
-                 the pathogenicity of variants supplied to COAST-SS, finding
-                 that they often yield similar power for detecting candidate
-                 allelic series. Lastly, we employ COAST-SS to screen for lipid
-                 trait allelic series in a meta-analyzed cohort of up to 840K
-                 subjects. COAST-SS has been incorporated into the publicly
-                 available AllelicSeries R package.",
-  month       =  nov,
-  year        =  2024,
-  url         = "https://www.biorxiv.org/content/10.1101/2024.10.31.621375v2.full.pdf"
-}
-
 @ARTICLE{Yengo2018-zo,
   title    = "Meta-analysis of genome-wide association studies for height and
               body mass index in ∼700000 individuals of European ancestry",
@@ -10326,4 +10280,51 @@
                testing; target identification; variant pathogenicity;
                whole-exome sequencing",
   language  = "en"
+}
+
+@ARTICLE{McCaw2024-bg,
+  title       = "A Scalable Framework for Identifying Allelic Series from
+                 Summary Statistics",
+  author      = "McCaw, Zachary R and Gao, Jianhui and Dey, Rounak and Tucker,
+                 Simon and Zhang, Yiyan and Gronsbell, Jessica and Li, Xihao and
+                 Fox, Emily and O'Dushlaine, Colm and Soare, Thomas W",
+  journal     = "Genetics",
+  institution = "bioRxiv",
+  number      = "biorxiv;2024.10.31.621375v2",
+  abstract    = "Abstract Genes for which a dose-response relationship exists
+                 between mutational severity and phenotypic impact make for
+                 logical therapeutic targets, as the effects of pharmacological
+                 modulation can be anticipated from the natural variation
+                 present in a population. We refer to genes where such a
+                 dose-response relationship exists as harboring allelic series,
+                 and have introduced the rare coding-variant allelic series test
+                 (COAST) for their identification. The original COAST required
+                 access to individual-level data. However, such data are often
+                 unavailable due to privacy concerns or logistical challenges.
+                 Meanwhile, single-variant summary statistics of the type
+                 produced by genome-wide association studies are plentiful. Here
+                 we introduce COAST-SS, an extension of COAST that accepts
+                 summary statistics as input, namely the per-variant effect
+                 sizes and standard errors, along with estimates of the minor
+                 allele frequency and local linkage disequilibrium (LD). As a
+                 running example, we consider identifying allelic series for
+                 circulating lipid traits, drawing on data from the UK Biobank,
+                 Million Veterans Program, and Trans-Omics of Precision Medicine
+                 Program. Through extensive analyses of real and simulated data,
+                 we demonstrate that COAST-SS provides p-values effectively
+                 equivalent to those from the original COAST. Interestingly, we
+                 find that when LD is low, as is expected among rare variants,
+                 COAST-SS is robust to misspecification of the LD matrix,
+                 providing valid inference even when the LD matrix is set to the
+                 identity matrix. We explore several strategies for annotating
+                 the pathogenicity of variants supplied to COAST-SS, finding
+                 that they often yield similar power for detecting candidate
+                 allelic series. Lastly, we employ COAST-SS to screen for lipid
+                 trait allelic series in a meta-analyzed cohort of up to 840K
+                 subjects. COAST-SS has been incorporated into the publicly
+                 available AllelicSeries R package.",
+  month       =  nov,
+  year        =  2024,
+  url         = "https://www.biorxiv.org/content/10.1101/2024.10.31.621375v2.full.pdf",
+  file        = "All Papers/Dose response/McCaw et al. 2024 - A Scalable Framework for Identifying Allelic Series from Summary Statistics.pdf"
 }
